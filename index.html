@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  <div class="background-video">
+    <video autoplay muted loop>
+      <source src="1734994738473.publer.io.mp4" type="video/mp4">
+      
+    </video>
+  </div>
+  <div class="container">
+    <h1>Pomodoro Timer</h1>
+    <input id="time-input" type="number" placeholder="Enter time in minutes" min="1">
+    <div class="timer">
+      <span id="minutes">00</span>:<span id="seconds">00</span>
+    </div>
+    <button id="start">Start</button>
+    <button id="reset">Reset</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
